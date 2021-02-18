@@ -1,7 +1,87 @@
 {% extends 'myapp/base.html' %}
+{% load static %}
 
 {% block content %}
+<nav class="navbar navbar-expand-sm p-1 sticky-top navbar-dark ">
+            <div class="container">
+                <h6 class=" navbar navbar-dark nav-cl "> MANIT</h6>
+                <button type="button" class="navbar-toggler " data-toggle="collapse" data-target="#mymenu">
+                    <span class="navbar-toggler-icon "></span>
+                    
+                </button>
+                <div class="collapse navbar-collapse " id="mymenu">
+                <ul class=" navbar-nav ml-auto text-center" >
+                    <li class="nav-item active">
+                        <a class="nav-link " href="/">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="/slogin">Assignment</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="/tlogin">Teacher</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link  " href="/contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/adminpg">Admin</a>
+                    </li>
+                </ul>
+                </div>
+            </div>    
+        </nav>
 
-<h4>this is home page</h4>
+
+    <div  class="hero-image" style="background-image: url('{% static 'myapp/images/manit.jpg' %}'); height: 600px;">
+            <div class="context-area ">
+                <h1><span>Assignment System</span></h1>
+                <span class="des">Online Assignment submission System Provide by Institute. </span>
+
+                
+                <div class="row px-5">
+                    <div class="col-xl-6 p-2">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Student portal</h5>
+                          <hr>
+                          <a href="/slogin" class="btn  btn-success">Log in </a>
+                          <a href="/sreg" class="btn  btn-primary">Register</a>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 p-2">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Teacher portal</h5>
+                          <hr>
+                          <a href="/tlogin" class="btn  btn-danger">Log in </a>
+                         
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                                           
+            </div>
+        </div>
+        
+        
+        <div  class="tag-line" ></div>
+        </div>
+        
+        <div class="container">
+            <div class="row ">
+                 <div class="col-md-12 about col-md-offset-3">
+                     <h4 >ABOUT US</h4>
+                     <ul>
+                         <li><h6>A web application for an online ID card generating system and authorized by an Educational Institute.</h6></li>
+                         <li><h6>It was also managing the student's record easily.</h6></li>
+                     </ul>
+                 </div>
+            </div>
+        </div>
+
+    
 
 {% endblock content %}

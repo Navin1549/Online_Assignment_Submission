@@ -1,15 +1,5 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Jan 31, 2021, 3:38:08 PM
-    Author     : Navin Ranjan
-*/
 
-                                                    /* Home page start*/
-/* top start*/
+
 .manit-cl{
     color: #273650;
     text-transform: uppercase;
@@ -50,9 +40,9 @@ and open the template in the editor.
 /*image section start*/
 .hero-image{
     position: relative;
-    height: 500px;
+   
     overflow: hidden;
-    background-image: url(image/manit.jpg) ;
+    
     background-size: cover;
 }
 .context-area{
@@ -176,9 +166,8 @@ and open the template in the editor.
                                           /* contact us, Registration,log in page start*/
 
  .contact-form{
-     margin-top: 20px;
-     margin-bottom: 20px;
-    background-color:whitesmoke;
+
+    background-color:#F1FFF7;
   
                                               
     }
@@ -190,7 +179,7 @@ and open the template in the editor.
     .contact-des h4{
          
       margin-top: 20px;
-      margin-left: 20px;
+      margin-left: 10px;
       text-decoration-line:underline;
       text-decoration-color:green;
       text-decoration-style:solid;
@@ -241,6 +230,6 @@ and open the template in the editor.
     }    
                                              /* contact us, registration, login  page End*/
                                              
-                                                                                 
-                                             
-
+           /* student login form*/
+           
+          

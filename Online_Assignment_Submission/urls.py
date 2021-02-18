@@ -20,4 +20,11 @@ from myapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home,name="home page"),
+    path('contact/',views.contact,name="contact page"),
+    path('adminpg/',views.adminpg,name="admin page"),
+    path('slogin/',views.slogin,name="Student login  page"),
+    path('tlogin/',views.tlogin,name="teacher login  page"),
+    path('sreg/',views.sreg,name="Student register page"),
+    
+
 ]
