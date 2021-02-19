@@ -38,11 +38,11 @@
 <div class="container p-5">
   <div class="row justify-content-center align-items-center ">
 
-    <div class="col-md-6 contact-form ">
+    <div class="col-md-7 contact-form ">
              
         <div class="col-md-12">
             <div class="contact-des" >
-                <h4>Student Log in </h4>
+                <h4>Student Registration </h4>
                 
             </div>
                 <hr>
@@ -55,20 +55,52 @@
                      
                     <form  action="LoginSer" method="POST">
       
-                       
+                       <div class="form-group">
+                            <label >Roll No./ Scholar No.</label>
+                            <input type="text" class="form-control" name="txtsch" placeholder="Roll Number">
+                        </div>
+
+                        <div class="form-group">
+                            <label >Name</label>
+                            <input type="text" class="form-control" name="txtname" placeholder="Enter the Full name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="sel1">Course</label>
+                            <select class="form-control" id="sel1">
+                              <option>None</option>
+                              <option>BTECH</option>
+                              <option>MCA</option>
+                              <option>MBA</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label >Session</label>
+                            <input type="text" class="form-control" name="txtname" placeholder="Example : 2018-2021">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="formFile" class="form-label">Profile picture</label>
+                            <input class="form-control" type="file" id="formFile">
+                          </div>
+
                         <div class="form-group">
                             <label >Email address</label>
                             <input type="email" class="form-control" name="txtemail" placeholder="name@example.com">
                         </div>
 
                         <div class="form-group">
-                            <label >Password</label>
-                            <input type="password" class="form-control" name="txtpass" placeholder="password">
+                            <label >New Password</label>
+                            <input type="password" class="form-control" name="txtpass" placeholder="new password">
+                        </div>
+                        <div class="form-group">
+                            <label >confirm Password</label>
+                            <input type="password" class="form-control" name="txtpass" placeholder="confirm password">
                         </div>
                         <div class="form-group">
                                 <label for="remember-me" class="text-info"><span>Remember me</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
-                               <button type="login" class="btn btn-success">Log in</button>
-                                <a href="/sreg" type="New Registration" class="btn btn-primary">New Registation</a>
+                                <a href="/sreg" type="New Registration" class="btn btn-primary">Register</a>
+                                <button type="login" class="btn btn-success">Log in</button>
                          </div>
                         
                     </form>

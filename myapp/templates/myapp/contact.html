@@ -30,6 +30,82 @@
             </div>    
         </nav>
 
-<h4>this is home page</h4>
+<div class="container p-5">
+  <div class="row justify-content-center align-items-center  ">
+
+    <div class="col-md-6 contact-form ">
+             
+        <div class="col-md-12">
+            <div class="contact-des" >
+                <h4>Contact us </h4>
+                
+            </div>
+                <hr>
+                
+             
+                 
+                 <div class=" contact-area2">
+                
+                    
+                     
+                    <form  action="/contacts" method="POST">
+      
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Name </label>
+                             <input type="name" class="form-control" id="name" name="name" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email address</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Phone</label>
+                            <input type="phone" class="form-control" id="phone" name="phone" placeholder="Your Number">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Enter your concern</label>
+                            <textarea class="form-control" id="desc" name="desc" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                    <div>
+                       
+                    </div>   
+                    
+                </div>
+                
+                
+             </div>  
+            </div>
+            <div class=" col-md-4 py-2">   
+             <div class="profile col-md-12" >
+                    <div class="card">
+                        
+                        <div class="card-body">
+                            <h4 >Navin Ranjan</h4>
+                                 <div style="margin-right: 20px; color:navy">
+                                 <p class="card-text">I am a student in NIT Bhopal And I am from Sitamarhi Bihar. </p>
+                                 <h6 class="card-text">Email : navinranjan15498@gmail.com </h6>
+                                 <h6 class="card-text">Mobile No. : +91-7979819668</h6>
+                                 </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+
+
+            
+  </div>
+ 
+  
+</div>
+</div>
+    
+
+
+
+
 
 {% endblock content %}
